@@ -1,4 +1,4 @@
-<p align="center" width="100%">
+<p align="center" width="100%"  style="size:50px">
     Beluga-Bar-Website-Projekt
 </p>
 
