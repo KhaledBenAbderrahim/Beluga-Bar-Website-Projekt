@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beluga Bar Website Gründgerust</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <section id="banner">
+        <img src="Data/logo.jpg" class="logo">
+        <div class="banner-text">
+            <h1>Beluga Bar</h1>
+            <p>Cocktailbar Dance Lounge</p>
+            <div class="banner-btn">
+                <a href="#"><span></span> erfahren</a>
+                <a href="#"><span></span>Weiterlesen</a>
+            </div>
+        </div>
+    </section>
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="#banner">ÜBER UNS</a></li>
+                <li><a href="#feature">LOCATION</a></li>
+                <li><a href="#service">EVENTS</a></li>
+                <li><a href="#testimonial">BILDER</a></li>
+                <li><a href="#footer">KONTAKT</a></li>
+
+            </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="Data/menu_btn.png" id="menu">
+    </div>
+
+    <!--Features-->
+    
+    <section id="feature">
+        <div class="title-text">
+        <p>Über uns</p>
+        <h1>Cocktailbar Auf den Höfen</h1>   
+        </div>
+        <div class="feature-box">
+            <div class="features">
+                <h1>Besondere Ambiente</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="bi bi-camera-reels-fill"></i>
+                    </div>
+                    <div class="feature-text"></div>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                        magna aliquyam erat, sed diam voluptua</p>
+                </div>
+                <h1>cs .150 Cocktails</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="bi bi-bookmark-check"></i>
+                    </div>
+                    <div class="feature-text"></div>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                        magna aliquyam erat, sed diam voluptua</p>
+                </div>
+                <h1>Happy und Jumbo Hour</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="bi bi-person-check-fill"></i>                    </div>
+                    <div class="feature-text"></div>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                        magna aliquyam erat, sed diam voluptua</p>
+                </div>
+            </div>
+            <div class="features-img">
+                <img src="Data/party1.jpg">
+            </div
+        </div>
+
+    </section>
+
+    <!--Service -->
+    <section id="service">
+        <div class="title-text">
+            <p>Diensleistungen</p>
+            <h1>Cocktailbar Auf den Höfen</h1>
+        </div>
+        <div class="service-box">
+            <div class="single-service">
+                <img src="Data/party4.jpg">
+                <div class="overlay"></div> 
+                <div class="service-desc">
+                    <h3>Veransltantung</h3>
+                    <hr>
+                    <p>
+                        hier kommt ein Text um die veranstaltungen 
+                        zu beschreiben
+                    </p>
+                </div>  
+            </div>
+            <div class="single-service">
+                <img src="Data/party5.jpg">
+                <div class="overlay"></div> 
+                <div class="service-desc">
+                    <h3>Bundesliga</h3>
+                    <hr>
+                    <p>
+                        hier kommt ein Text um die veranstaltungen 
+                        zu beschreiben
+                    </p>
+                </div>    
+            </div>
+            <div class="single-service">
+                <img src="Data/party7.jpg">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Geburstage</h3>
+                    <hr>
+                    <p>
+                        hier kommt ein Text um die veranstaltungen 
+                        zu beschreiben
+                    </p>
+                </div>     
+            </div>
+            <div class="single-service">
+                <img src="Data/party8.jpg">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Salsa Party</h3>
+                    <hr>
+                    <p>
+                        hier kommt ein Text um die veranstaltungen 
+                        zu beschreiben
+                    </p>
+                </div>  
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Testimonial -->
+    <section id="testimonial">
+        <div class="title-text">
+            <p>Testimonial</p>
+            <h1>was die kunden über uns sagen</h1>
+        </div>
+    <!---Bilder Galerie-->
+    </section id="bilder Galery">
+        <div class="title-text">
+            <p>Bilder Galery</p>
+        </div>
+        <div class="full-img" id="fullImgBox">
+            <img src="Data/beluga1.jpg" id="fullImg">
+            <span onClick="closeFullImg()">X</span>
+        </div>
+        <div class="img-gallery">
+            <img src="Data/beluga1.jpg" onClick="openFullImg(this.src)">
+            <img src="Data/beluga2.jpg" onClick="openFullImg(this.src)">
+            <img src="Data/beluga3.jpg" onClick="openFullImg(this.src)">
+            <img src="Data/beluga4.jpg" onClick="openFullImg(this.src)">
+            <img src="Data/beluga5.jpg" onClick="openFullImg(this.src)">
+            <img src="Data/beluga6.jpg" onClick="openFullImg(this.src)">
+            <img src="Data/beluga7.jpg" onClick="openFullImg(this.src)">
+            <img src="Data/beluga8.jpg" onClick="openFullImg(this.src)">
+            
+
+        </div>
+    <section>
+
+    </section>
+    <!--footer-->
+
+    <section id="footer">
+        <img src="Data/koktail3.png" class="footer-img">
+        <div class="title-text">
+            <p>KONTAKT</p>
+            <h1>Visit uns heute</h1>
+        </div>
+        <div class="footer-row">
+            <div class="footer-left">
+                <h1>Öffnungzeiten</h1>
+                <p><i class="bi bi-clock"></i>Montag-Samtag:ab 18h</p>
+                <p><i class="bi bi-clock"></i>Sonntag geschlossen</p>
+            </div>
+            <div class="footer-right">
+                <h1>kontakt</h1>
+                <p>26123, auf den höfen Bremen<i class="bi bi-geo-alt-fill"></i></i></p>
+                <p>Beluga@beluga.com<i class="bi bi-envelope-open-fill"></i></p>
+                <p>+49176882554123<i class="bi bi-telephone-fill"></i></p>
+
+            </div>
+        </div>
+        <div class="social-links">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-youtube"></i>
+            <p>Copyright Beluga Personal</p>
+        </div>
+    </section>
+
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+
+        sideNav.style.right = "-250px"
+
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0"
+                menu.src = "Data/btn-close.png"
+            }
+            else{
+                sideNav.style.right ="-250px"
+                menu.src = "Data/menu_btn.png"
+            }
+        }
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 1000,
+            speedAsDuration: true
+        });
+
+        var fullImgBox = document.getElementById("fullImgBox");
+        var fullImg = document.getElementById("fullImg");
+
+        function openFullImg(pic){
+            fullImgBox.style.display = "flex";
+            fullImg.src = pic
+
+        }
+        function closeFullImg(){
+            fullImgBox.style.display = "none"
+        }
+
+    </script>
+</body>
+</html>
