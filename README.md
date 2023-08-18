@@ -40,11 +40,7 @@ Willkommen zum Code der **Beluga Bar** Website! Diese Seite wurde entwickelt, um
 
 ---
 
-## 📬 Kontakt
 
-Fragen, Anregungen oder einfach nur ein nettes Gespräch über Bars? **Kontaktiere mich!**
-
----
 
 
  
